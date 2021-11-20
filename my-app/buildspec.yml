@@ -3,11 +3,11 @@ version: 0.2
 phases: 
   pre-build: 
     commands:
+      - cd my-app
       - npm install
     
   build:
     commands: 
-      - cd my-app
       - npm run build 
 
 artifacts: 
